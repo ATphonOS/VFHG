@@ -9,7 +9,7 @@ Since this is a Python script, no traditional compilation is required. However, 
 ### Prerequisites
 - **Python 3.6+**: Ensure Python is installed on your system. Download it from [python.org](https://www.python.org/downloads/) 
 - **Required Libraries**:
-
+  
   - `PyInstaller`: Install via pip:
     
    ```bash
@@ -27,17 +27,17 @@ This option bundles the application into a single `.exe` file, making it easy to
 
 **Command:**
 ```bash
-pyinstaller --onefile --windowed --icon=icon/logo_app.ico --add-data "icon/logo_app.png;icon" --name "Version File Integrity Check" VFHG.py
+pyinstaller --onefile --windowed --icon=icon/logo_app.ico --add-data "icon/logo_app.png;icon" --name "ATphonOS Version File Integrity Check" VFHG.py
 ```
 
 - **`--onefile`**: Packages everything into a single executable.
 - **`--windowed`**: Runs the GUI without a console window.
 - **`--icon=icon/logo_app.png`**: Sets the application icon.
 - **`--add-data "icon/logo_app.png;icon"`**: Includes the icon file in the bundle. 
-- **`--name "Version File Hash Generator"`**: Names the output file `Version File Hash Generator.exe`.
+- **`--name "ATphonOS Version File Hash Generator"`**: Names the output file `Version File Hash Generator.exe`.
 - **`VFHG.py`**: The source script to compile.
 
-**Output**: A single `Version File Hash Generator.exe` file will be created in the `dist/` directory.
+**Output**: A single `ATphonOS Version File Hash Generator.exe` file will be created in the `dist/` directory.
 
 ### Option 2: Directory with Dependencies
 
@@ -45,13 +45,13 @@ This option creates a folder containing the executable and all required dependen
 
 **Command:**
 ```bash
-pyinstaller --onedir --windowed --icon=icon/logo_app.ico --add-data "icon/logo_app.png;icon" --name "Version File Integrity Check" VFHG.py
+pyinstaller --onedir --windowed --icon=icon/logo_app.ico --add-data "icon/logo_app.png;icon" --name "ATphonOS Version File Integrity Check" VFHG.py
 ```
 
 - **`--onedir`**: Creates a directory with the executable and dependencies.
 - Other flags are identical to Option 1 (see descriptions above)
 
-**Output**: A `Version File Hash Generator` folder will be created in the `dist/` directory, containing `Version File Integrity Generator.exe` and supporting files.
+**Output**: A `ATphonOS Version File Hash Generator` folder will be created in the `dist/` directory, containing `ATphonOS Version File Integrity Generator.exe` and supporting files.
 
 ### Installation
 1. **Clone or Download the Repository**:
@@ -130,7 +130,7 @@ The documentation is generated using Python’s built-in `pydoc` module, which c
 ## Prerequisites
 
 - **Python 3.6+**: Required to run the script and Pydoc. Download from [python.org](https://www.python.org/downloads/).
-- **`wget` for Windows**: Version 1.21.4 (x64) is included in this repository in the root directory (`wget.exe`). If missing, download it from [GNU Wget](https://eternallybored.org/misc/wget/) and place it in the same directory as `hash_generator_with_icon_fix.py`.
+- **`wget` for Windows**: Version 1.21.4 (x64) is included in this repository in the root directory (`wget.exe`). If missing, download it from [GNU Wget](https://eternallybored.org/misc/wget/) and place it in the same directory as `VFHG.py`.
 - **Project Files**: Ensure you have:
   - `VFHG.py` (the main script).
   - `modules.txt` (list of module URLs, located in the root directory).
@@ -141,7 +141,7 @@ The documentation is generated using Python’s built-in `pydoc` module, which c
 The pre-generated documentation is included in the `docs/` directory. To view it:
 
 1. **Start the Pydoc Server**:
-   Open a terminal (CMD) in the repository’s root directory (where `hash_generator_with_icon_fix.py` is located) and run:
+   Open a terminal (CMD) in the repository’s root directory (where `VFHG.py` is located) and run:
    ```bash
    python -m pydoc -p 8000
    ```
@@ -165,7 +165,7 @@ To regenerate the documentation (e.g., after modifying the script), follow these
 
 2. **Download Documentation with `wget`**:
    - Open a new terminal (CMD) in the same directory.
-   - Ensure `wget.exe` (version 1.21.4 x64) is in the root directory alongside `hash_generator_with_icon_fix.py`.
+   - Ensure `wget.exe` (version 1.21.4 x64) is in the root directory alongside `VFHG.py`.
    - Run the following command:
      ```bash
      wget -i modules.txt -P docs -p -k
