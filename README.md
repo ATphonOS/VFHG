@@ -1,7 +1,6 @@
 # ATphonOS VFHG (Version File Hash Generator)
 
-The **Version File Hash Generator** is a Python-based desktop application designed to generate SHA-1 hashes for files within a specified directory and its subdirectories. The tool outputs these hashes into a text file, optionally appending a version string. This application is particularly useful for verifying file integrity or creating versioned hash manifests.
-
+The **Version File Hash Generator** is a Python-based desktop application designed to generate SHA-1 hashes for files within a specified directory and its subdirectories. The tool outputs these hashes into a text file, optionally appending a version string.
 ## Compilation
 
 Since this is a Python script, no traditional compilation is required. However, it depends on Python and specific libraries. Follow these steps to prepare and run the program:
