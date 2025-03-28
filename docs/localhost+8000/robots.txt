@@ -5,7 +5,7 @@
 <title>Pydoc: Error - robots.txt</title>
 <link rel="stylesheet" type="text/css" href="pydoc_data/_pydoc.css"></head><body>
             <div style='float:left'>
-                Python 3.13.1 [tags/v3.13.1:0671451, MSC v.1942 64 bit (AMD64)]<br>Windows-10
+                Python 3.13.1 [tags/v3.13.1:0671451, MSC v.1942 64 bit (AMD64)]<br>
             </div>
             <div style='float:right'>
                 <div style='text-align:center'>
