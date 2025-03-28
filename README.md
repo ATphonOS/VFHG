@@ -26,7 +26,7 @@ This option bundles the application into a single `.exe` file, making it easy to
 
 **Command:**
 ```bash
-pyinstaller --onefile --windowed --icon=icon/logo_app.ico --add-data "icon/logo_app.png;icon" --name "ATphonOS Version File Integrity Check" VFHG.py
+pyinstaller --onefile --windowed --icon=icon/logo_app.ico --add-data "icon/logo_app.png;icon" --name "ATphonOS Version File Hash Generator" VFHG.py
 ```
 
 - **`--onefile`**: Packages everything into a single executable.
@@ -44,13 +44,13 @@ This option creates a folder containing the executable and all required dependen
 
 **Command:**
 ```bash
-pyinstaller --onedir --windowed --icon=icon/logo_app.ico --add-data "icon/logo_app.png;icon" --name "ATphonOS Version File Integrity Check" VFHG.py
+pyinstaller --onedir --windowed --icon=icon/logo_app.ico --add-data "icon/logo_app.png;icon" --name "ATphonOS Version File Hash Generator" VFHG.py
 ```
 
 - **`--onedir`**: Creates a directory with the executable and dependencies.
 - Other flags are identical to Option 1 (see descriptions above)
 
-**Output**: A `ATphonOS Version File Hash Generator` folder will be created in the `dist/` directory, containing `ATphonOS Version File Integrity Generator.exe` and supporting files.
+**Output**: A `ATphonOS Version File Hash Generator` folder will be created in the `dist/` directory, containing `ATphonOS Version File Hash Generator.exe` and supporting files.
 
 ### Installation
 1. **Clone or Download the Repository**:
