@@ -171,7 +171,3 @@ These correspond to the imports in `VFHG.py`.
 **404 Errors**: Verify you’re in the correct directory when starting the Pydoc server, as it serves modules from the current working directory.
 
 For further assistance, refer to the [Pydoc documentation](https://docs.python.org/3/library/pydoc.html) or [Wget manual](https://www.gnu.org/software/wget/manual/wget.html), or open an issue in this repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for details.
